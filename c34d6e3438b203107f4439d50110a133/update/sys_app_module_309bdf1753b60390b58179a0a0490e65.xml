@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Loaner Request">1ef20bf438f203107f4439d50110a1e1</application>
+        <application display_value="Udemy Demo">3c9bdf1753b60390b58179a0a0490e39</application>
         <assessment/>
         <device_type/>
         <filter/>
         <hint/>
         <homepage/>
         <image/>
-        <link_type>NEW</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Create New</mobile_title>
+        <mobile_title>Udemy Demos</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_cdltd_loaner_r_0_loaner_request</name>
-        <order>200</order>
+        <name>x_cdltd_loaner_r_0_udemy_demo</name>
+        <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>itil</roles>
+        <roles>x_cdltd_loaner_r_0.udemy_demo_user</roles>
         <route/>
         <screen/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-17 03:53:36</sys_created_on>
+        <sys_created_on>2026-08-25 00:24:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8a7e3ab038f203107f4439d50110a145</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Create New</sys_name>
+        <sys_id>309bdf1753b60390b58179a0a0490e65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Udemy Demos</sys_name>
         <sys_overrides/>
         <sys_package display_value="loaner Request" source="x_cdltd_loaner_r_0">c34d6e3438b203107f4439d50110a133</sys_package>
         <sys_policy/>
         <sys_scope display_value="loaner Request">c34d6e3438b203107f4439d50110a133</sys_scope>
-        <sys_update_name>sys_app_module_8a7e3ab038f203107f4439d50110a145</sys_update_name>
+        <sys_update_name>sys_app_module_309bdf1753b60390b58179a0a0490e65</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-24 23:06:20</sys_updated_on>
+        <sys_updated_on>2026-08-25 00:24:33</sys_updated_on>
         <timeline_page/>
-        <title>Create New</title>
+        <title>Udemy Demos</title>
         <uncancelable>false</uncancelable>
         <ux_list/>
         <view_name/>

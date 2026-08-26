@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="Task table schema" source="com.glide.task">78357ba6440103107f44e4ff76a861cf</dependency>
-        <min_version>1.0.0</min_version>
+        <dependency display_value="Creator Studio" source="sn_creatorstudio">81ac5fe1c7442110408bc8d6f2c260d1</dependency>
+        <min_version>29.3.0</min_version>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-17 03:07:55</sys_created_on>
-        <sys_id>4c44f2b838b203107f4439d50110a14d</sys_id>
+        <sys_created_on>2026-08-20 04:39:25</sys_created_on>
+        <sys_id>15f566bd53720750b58179a0a0490eb5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_package display_value="loaner Request" source="x_cdltd_loaner_r_0">c34d6e3438b203107f4439d50110a133</sys_package>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-17 03:07:55</sys_updated_on>
+        <sys_updated_on>2026-08-20 04:39:25</sys_updated_on>
     </sys_package_dependency_m2m>
 </record_update>

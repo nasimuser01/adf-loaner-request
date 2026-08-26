@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="f5afeab438b203107f4439d50110a1b4" extends="task" label="Loaner Request" max_length="40" name="x_cdltd_loaner_r_0_loaner_request" type="collection"/>
+    <element db_object_id="f5afeab438b203107f4439d50110a1b4" extends="task" label="Loaner Request" max_length="40" name="x_cdltd_loaner_r_0_loaner_request" type="collection">
+        <element label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+    </element>
 </database>
