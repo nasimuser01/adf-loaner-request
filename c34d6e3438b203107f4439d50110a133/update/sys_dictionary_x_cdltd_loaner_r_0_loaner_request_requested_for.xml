@@ -33,7 +33,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <name>x_cdltd_loaner_r_0_loaner_request</name>
         <next_element/>
@@ -59,7 +59,7 @@
         <sys_scope display_value="loaner Request">c34d6e3438b203107f4439d50110a133</sys_scope>
         <sys_update_name>sys_dictionary_x_cdltd_loaner_r_0_loaner_request_requested_for</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-26 03:42:44</sys_updated_on>
+        <sys_updated_on>2026-08-28 03:47:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="requested_for" label="Requested for" language="en" table="x_cdltd_loaner_r_0_loaner_request">
+    <sys_documentation element="pick_up_remider" label="Pick up remider" language="en" table="x_cdltd_loaner_r_0_loaner_request">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>requested_for</element>
+            <element>pick_up_remider</element>
             <help/>
             <hint/>
-            <label>Requested for</label>
+            <label>Pick up remider</label>
             <language>en</language>
             <name>x_cdltd_loaner_r_0_loaner_request</name>
-            <plural>Requested for</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-08-26 03:42:44</sys_created_on>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Requested for</sys_name>
+            <sys_created_on>2026-08-28 04:12:01</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Pick up remider</sys_name>
             <sys_package display_value="loaner Request" source="x_cdltd_loaner_r_0">c34d6e3438b203107f4439d50110a133</sys_package>
             <sys_policy/>
             <sys_scope display_value="loaner Request">c34d6e3438b203107f4439d50110a133</sys_scope>
-            <sys_update_name>sys_documentation_x_cdltd_loaner_r_0_loaner_request_requested_for_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_cdltd_loaner_r_0_loaner_request_pick_up_remider_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-28 03:47:20</sys_updated_on>
+            <sys_updated_on>2026-08-28 04:12:02</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

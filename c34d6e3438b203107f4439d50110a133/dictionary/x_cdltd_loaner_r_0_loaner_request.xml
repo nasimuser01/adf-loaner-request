@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="f5afeab438b203107f4439d50110a1b4" extends="task" label="Loaner Request" max_length="40" name="x_cdltd_loaner_r_0_loaner_request" type="collection">
-        <element label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+    <element audit="true" db_object_id="f5afeab438b203107f4439d50110a1b4" extends="task" label="Loaner Request" max_length="40" name="x_cdltd_loaner_r_0_loaner_request" type="collection">
+        <element label="Location to be used" max_length="40" name="location_to_be_used" type="string"/>
+        <element choice="1" default="sc" label="Depo" max_length="255" name="depo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Other" value="other"/>
+                <element inactive_on_update="false" label="Buenos Aires" value="ba"/>
+                <element inactive_on_update="false" label="Santa Clara" value="sc"/>
+                <element inactive_on_update="false" label="London" value="london"/>
+                <element inactive_on_update="false" label="New York" value="ny"/>
+            </choice>
+        </element>
+        <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Pick up remider" max_length="255" name="pick_up_remider" type="glide_date_time"/>
+        <element label="Start Date" mandatory="true" max_length="255" name="start_date" type="glide_date_time"/>
+        <element choice="1" default="cmdb_ci_computer" label="Item type" max_length="255" name="item_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="cmdb_ci_computer"/>
+                <element inactive_on_update="false" label="Projector" sequence="2" value="cmdb_ci_projector"/>
+                <element inactive_on_update="false" label="Mobile Phone" sequence="1" value="cmdb_ci_mobile_device"/>
+            </choice>
+        </element>
+        <element label="End Date" mandatory="true" max_length="255" name="end_date" type="glide_date_time"/>
     </element>
 </database>
