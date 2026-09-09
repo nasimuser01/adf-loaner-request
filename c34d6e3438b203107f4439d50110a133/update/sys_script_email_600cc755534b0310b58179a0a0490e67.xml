@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Loaner_Item_Pick_Up</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+
+    if (current.item_type == 'cmdb_ci_computer') {
+
+        var request = new sn_ws.RESTMessageV2();
+
+        request.setEndpoint(
+            'https://dev442488.service-now.com/api/now/table/u_password_vault' +
+            '?sysparm_query=u_asset%3D' + current.cmdb_ci.asset_tag +
+            '&sysparm_fields=u_password' +
+            '&sysparm_limit=1'
+        );
+
+        request.setHttpMethod('GET');
+
+        var user = 'admin';
+        var password = 'Tg$JrR@P7d7q';
+
+        request.setBasicAuth(user, password);
+        request.setRequestHeader('Accept', 'application/json');
+
+        var response = request.execute();
+        var obj = JSON.parse(response.getBody());
+
+        if (obj.result && obj.result.length > 0) {
+            var myPass = obj.result[0].u_password;
+            template.print('u_password: ' + myPass);
+        }
+    }
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:24:59</sys_created_on>
+        <sys_id>600cc755534b0310b58179a0a0490e67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner_Item_Pick_Up</sys_name>
+        <sys_package display_value="loaner Request" source="x_cdltd_loaner_r_0">c34d6e3438b203107f4439d50110a133</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="loaner Request">c34d6e3438b203107f4439d50110a133</sys_scope>
+        <sys_update_name>sys_script_email_600cc755534b0310b58179a0a0490e67</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:24:59</sys_updated_on>
+    </sys_script_email>
+</record_update>

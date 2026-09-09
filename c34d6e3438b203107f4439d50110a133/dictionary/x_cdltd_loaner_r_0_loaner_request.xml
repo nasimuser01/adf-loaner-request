@@ -13,6 +13,7 @@
         <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element label="Pick up remider" max_length="255" name="pick_up_remider" type="glide_date_time"/>
         <element label="Start Date" mandatory="true" max_length="255" name="start_date" type="glide_date_time"/>
+        <element label="Other" max_length="40" name="other" type="string"/>
         <element choice="1" default="cmdb_ci_computer" label="Item type" max_length="255" name="item_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Laptop" sequence="0" value="cmdb_ci_computer"/>
